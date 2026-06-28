@@ -48,7 +48,7 @@ export default function PortfolioCard({
       <div className="w-full h-36 rounded-2xl overflow-hidden border border-white/10 bg-white/[0.03] mb-3">
         {image ? (
           <img
-            src={image?.startsWith('/assets/') ? `/portfolio${image}` : image}
+            src={image}
             className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
           />
         ) : (

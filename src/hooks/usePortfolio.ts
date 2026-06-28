@@ -8,28 +8,28 @@ const hardcodedProjects = [
     title: 'Admin Management System',
     description: 'A robust and secure admin management system designed to streamline internal operations, manage user roles, and monitor system metrics effectively.',
     live_url: '',
-    image_url: '/admin_dashboard.png'
+    image_url: '/portfolio/admin_dashboard.png'
   },
   {
     id: '2',
     title: 'AI Chat Bot (RAG, MCP, LLM)',
     description: 'An intelligent chatbot powered by Large Language Models, utilizing Retrieval-Augmented Generation (RAG) and the Model Context Protocol (MCP) to provide highly accurate and context-aware responses.',
     live_url: '',
-    image_url: '/ai_chatbot.png'
+    image_url: '/portfolio/ai_chatbot.png'
   },
   {
     id: '3',
     title: 'AI Resume Analyzer',
     description: 'An automated tool that leverages AI to parse, analyze, and score resumes against job descriptions, helping recruiters filter candidates efficiently.',
     live_url: '',
-    image_url: '/ai_resume.png'
+    image_url: '/portfolio/ai_resume.png'
   },
   {
     id: '4',
     title: 'Obesity Risk Prediction',
     description: 'A machine learning predictive model that analyzes various health metrics and lifestyle factors to estimate an individual\'s risk of developing obesity.',
     live_url: '',
-    image_url: '/obesity_risk.png'
+    image_url: '/portfolio/obesity_risk.png'
   }
 ];
 
@@ -37,17 +37,17 @@ const hardcodedCertificates = [
   {
     id: '1',
     title: 'Full Stack Intern 4 Months (at kmedtech)',
-    image_url: '/cert_fullstack.png'
+    image_url: '/portfolio/cert_fullstack.png'
   },
   {
     id: '2',
     title: 'Web Developer Intern 2 Months',
-    image_url: '/cert_webdev.png'
+    image_url: '/portfolio/cert_webdev.png'
   },
   {
     id: '3',
     title: 'Android Development',
-    image_url: '/cert_android.png'
+    image_url: '/portfolio/cert_android.png'
   }
 ];
 

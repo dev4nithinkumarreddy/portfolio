@@ -73,7 +73,7 @@ export default function PortfolioShowcase() {
                 opacity: 0,
               }}
               transition={{ duration: 0.35 }}
-              src={previewImage?.startsWith('/assets/') ? `/portfolio${previewImage}` : previewImage}
+              src={previewImage}
               className="max-w-[88vw] max-h-[88vh] rounded-3xl object-contain"
             />
           </motion.div>
@@ -305,7 +305,7 @@ export default function PortfolioShowcase() {
                       <div className="rounded-2xl overflow-hidden border border-white/10 h-56 bg-white/[0.03]">
                         {item.image_url ? (
                           <img
-                            src={item.image_url?.startsWith('/assets/') ? `/portfolio${item.image_url}` : item.image_url}
+                            src={item.image_url}
                             className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                           />
                         ) : (
