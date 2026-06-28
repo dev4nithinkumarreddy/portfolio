@@ -49,9 +49,9 @@ const socialLinks = [
   },
   {
     title: 'Github',
-    user: '@dev4nithinkumarreddyc-coder',
+    user: '@dev4nithinkumarreddy',
     icon: FaGithub,
-    link: 'https://github.com/dev4nithinkumarreddyc-coder',
+    link: 'https://github.com/dev4nithinkumarreddy',
   },
 ]
 
