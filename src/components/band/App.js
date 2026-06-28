@@ -22,9 +22,9 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-const GLTF_PATH = '/assets/kartu.glb';
-const TEXTURE_PATH = '/assets/bandd.png';
-const PROFILE_PATH = '/assets/PP.jpeg';
+const GLTF_PATH = '/portfolio/assets/kartu.glb';
+const TEXTURE_PATH = '/portfolio/assets/bandd.png';
+const PROFILE_PATH = '/portfolio/assets/PP.jpeg';
 
 useGLTF.preload(GLTF_PATH);
 useTexture.preload(TEXTURE_PATH);

@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useEffect, useState, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { supabase } from "@/lib/supabase";
 import Swal from "sweetalert2";
@@ -19,7 +19,16 @@ import {
 } from "lucide-react";
 
 export default function ProjectDetailPage() {
-  const { id } = useParams();
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center text-white">Loading...</div>}>
+      <ProjectDetailContent />
+    </Suspense>
+  );
+}
+
+function ProjectDetailContent() {
+  const searchParams = useSearchParams();
+  const id = searchParams.get("id");
   const router = useRouter();
 
   const [project, setProject] = useState<any>(null);

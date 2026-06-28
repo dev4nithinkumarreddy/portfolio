@@ -178,7 +178,7 @@ export default function About() {
                   }}
                 >
                   <img
-                    src="/assets/PP.jpeg?v=2"
+                    src="/portfolio/assets/PP.jpeg?v=2"
                     alt="Profile"
                     style={{
                       width: 110,
@@ -349,7 +349,7 @@ export default function About() {
                 }}
               >
                 <img
-                  src="/assets/PP.jpeg?v=2"
+                  src="/portfolio/assets/PP.jpeg?v=2"
                   alt="Profile"
                   style={{
                     width: "clamp(240px, 20vw, 320px)",
